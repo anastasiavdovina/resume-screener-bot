@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Data (downloaded by eval/prepare_data.py, not committed)
+data/*.csv
+!data/.gitkeep
+
+# Generated artifacts
+docs/*.png
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,21 @@
+Иван Петров
+Backend-разработчик (Python)
+
+Опыт работы: 4 года
+
+ООО «ТехноСофт», Python-разработчик (2021 — н.в.)
+- Разработка и поддержка микросервисов на FastAPI
+- Контейнеризация сервисов, настройка CI/CD (GitLab CI)
+- Работа с PostgreSQL, Redis, очередями (RabbitMQ)
+- Покрытие кода тестами (pytest), code review
+
+Стартап «Делика», Junior Python Developer (2020 — 2021)
+- Реализация REST API на Django
+- Интеграция со сторонними платёжными системами
+
+Навыки: Python, FastAPI, Django, PostgreSQL, Redis, RabbitMQ, Docker,
+GitLab CI, pytest, Linux
+
+Образование: МГТУ им. Баумана, прикладная математика и информатика (бакалавр, 2020)
+
+Английский — B2.

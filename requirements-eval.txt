@@ -1,0 +1,6 @@
+# Зависимости для блока метрик/оценки (eval/). Тяжёлые, в прод-образ бота не нужны.
+-r requirements.txt
+
+scikit-learn>=1.4    # TF-IDF + LogisticRegression (baseline), метрики
+pandas>=2.2          # чтение/нарезка датасета
+matplotlib>=3.8      # confusion matrix как PNG

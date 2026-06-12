@@ -1,0 +1,10 @@
+# Runtime-зависимости бота. Устанавливаются в Docker-образ.
+# Версии заданы нижними границами (floor) — pip ставит свежие совместимые.
+
+aiogram>=3.13,<4          # Telegram-бот (async, FSM)
+anthropic>=0.39           # Anthropic API SDK (usage-токены, prompt caching)
+pydantic>=2.7,<3          # схемы данных и валидация JSON от LLM
+pydantic-settings>=2.3    # чтение конфигурации из .env
+PyYAML>=6.0               # загрузка промптов из YAML
+python-dotenv>=1.0        # поддержка .env для pydantic-settings
+openai>=1.30              # клиент к Ollama (OpenAI-совместимый эндпоинт), LLM_PROVIDER=local
