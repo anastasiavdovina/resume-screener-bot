@@ -18,8 +18,10 @@ env/
 data/*.csv
 !data/.gitkeep
 
-# Generated artifacts
+# Generated artifacts (но confusion matrix для отчёта — коммитим)
 docs/*.png
+!docs/cm_baseline.png
+!docs/cm_llm.png
 
 # OS / editor
 .DS_Store
