@@ -1,0 +1,22 @@
+# Не отправляем в build context лишнее (ускоряет сборку и не тащит секреты)
+.venv/
+.git/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Не нужны в образе бота
+tests/
+eval/
+docs/
+data/
+requirements-dev.txt
+requirements-eval.txt
+Makefile
+
+# Секреты и артефакты
+.env
+*.png
+.DS_Store

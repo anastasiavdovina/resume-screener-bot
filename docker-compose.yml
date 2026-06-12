@@ -1,0 +1,18 @@
+# Воспроизводимый запуск бота: cp .env.example .env, заполнить токены, docker compose up --build
+services:
+  bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+
+  # Локальная модель (опционально): LLM_PROVIDER=local, LOCAL_BASE_URL=http://ollama:11434/v1.
+  # Раскомментируйте сервис и добавьте `depends_on: [ollama]` в bot.
+  # ollama:
+  #   image: ollama/ollama
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama:/root/.ollama
+
+# volumes:
+#   ollama:
